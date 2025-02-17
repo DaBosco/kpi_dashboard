@@ -2,3 +2,4 @@ myenv/
 __pycache__/
 *.csv
 logs/ 
+kpi_report.png
