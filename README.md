@@ -27,7 +27,7 @@ kpi_dashboard/
 │   └── cron.log          # Log file for cron job execution
 └── myenv/                # Python virtual environment
 
-##🛠️ Setup Instructions
+## 🛠️ Setup Instructions
 
 1️⃣ Install Dependencies
 Ensure you have Python and MariaDB installed. Then, install the required Python packages:
@@ -65,5 +65,5 @@ Python Libraries: Matplotlib, Seaborn, Plotly
 Spreadsheet Software: Microsoft Excel, Google Sheets, LibreOffice Calc
 Data Visualization Tools: Google Data Studio (Looker Studio), Tableau Public, etc.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License.
