@@ -30,12 +30,12 @@ kpi_dashboard/
 ## 🛠️ Setup Instructions
 
 1️⃣ Install Dependencies
-Ensure you have Python and MariaDB installed. Then, install the required Python packages:
+- Ensure you have Python and MariaDB installed. Then, install the required Python packages:
 
 pip install -r requirements.txt
 
 2️⃣ Configure Database Connection
-Edit scripts/extract_kpi.py with your MariaDB credentials:
+- Edit scripts/extract_kpi.py with your MariaDB credentials:
 
 conn = pymysql.connect(
     host="localhost",
@@ -45,25 +45,25 @@ conn = pymysql.connect(
 )
 
 3️⃣ Set Up Cron Job (Automation)
-Open the cron job editor:
+- Open the cron job editor:
 
 crontab -e
 
-Add the following line to schedule the KPI extraction every hour:
+- Add the following line to schedule the KPI extraction every hour:
 
 0 * * * * /path/to/your/project/scripts/extract_kpi.py >> /path/to/your/project/logs/cron.log 2>&1
 
 4️⃣ Run Manually (For Testing)
-You can manually generate the KPI report:
+- You can manually generate the KPI report:
 
 python3 scripts/extract_kpi.py
 
 💡 Visualizing the Data
-The generated kpi_report.csv file can be used with various tools for visualization, such as:
+- The generated kpi_report.csv file can be used with various tools for visualization, such as:
 
 Python Libraries: Matplotlib, Seaborn, Plotly
 Spreadsheet Software: Microsoft Excel, Google Sheets, LibreOffice Calc
 Data Visualization Tools: Google Data Studio (Looker Studio), Tableau Public, etc.
 
 ## 📜 License
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
